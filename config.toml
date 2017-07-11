@@ -1,0 +1,61 @@
+baseURL = "www.codyoss.com"
+author = "Cody Oss"
+languageCode = "en-us"
+title = "Cody's OSSome blog"
+paginate = 5
+canonifyurls = true
+theme = "hfi"
+googleAnalytics = "UA-102313553-1"
+
+[params]
+    # Sets the meta tag description, usually reserved for the main page
+    description          = "Cody Oss' Blog on all things programing"
+    # This will appear on the top left of the navigation bar
+    navbarTitle          = "Cody's OSSome Blog"
+    # Social media buttons that appear on the sidebar
+    socialAppearAtTop = true
+    socialAppearAtBottom = true
+    # Optional Stuff
+    categoriesByCount    = true
+    includeReadingTime   = true
+
+
+[params.intro]
+    header    = "Cody's OSSome Blog"
+    paragraph = "Programing, Tutorials, Reviews, and whatever else pops into my head."
+    about     = "Cody Oss is a Java programmer by day, and a Golang programmer by night!"
+
+
+[params.intro.pic]
+    src       = "/images/shield.png"
+    # modify your picture in the shape of a circle or
+    # future imperfect's hexagonal shape
+    circle    = false
+    imperfect = false
+    alt       = "Cody's OSSome Blog"
+
+[[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/"
+    weight = 1
+[[menu.main]]
+    identifier = "aboutme"
+    name = "About Me"
+    url = "/about"
+    weight = 2
+[[menu.main]]
+    name = "Categories"
+    url = "/categories"
+    weight = 3
+
+[social]
+    github          = "codyoss"
+    linkedin        = "cody-oss-5552076b"
+    twitter         = "imossome"
+    instagram       = "codyoss"
+    youtube         = ""
+    email           = ""
+    medium          = ""
+    stackoverflow   = ""
+    facebook        = ""
