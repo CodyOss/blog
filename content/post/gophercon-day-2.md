@@ -7,9 +7,10 @@ tags: ["go", "gophercon"]
 ---
 
 Like day one of GopherCon 2017, day two was full of awesome information! Here are some highlights from the
-sessions I attended. 
+sessions I attended.
 
-*NOTE*: You can view the official live blog of the con [here](https://about.sourcegraph.com/go/) for more detailed info.
+**NOTE**: You can view the official live blog of the con [here](https://about.sourcegraph.com/go/) for more detailed info.
+Slide decks can he found [here](https://github.com/gophercon/2017-talks)
 
 ## Understanding Channels by Kavya Joshi
 This was one of my favorite talks of the day. Kavya talked about how channels are implemented under the hood. Let me
